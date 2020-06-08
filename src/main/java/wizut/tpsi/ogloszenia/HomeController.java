@@ -29,7 +29,7 @@ public class HomeController {
     @GetMapping("/")
     public String home(Model model, OfferFilter offerFilter) {
         List<CarManufacturer> carManufacturers = offersService.getCarManufacturers();
-        List<CarModel> carModels = offersService.getCarModels();
+        List<CarModel> carModels = null ;
         List<FuelType> fuelTypes = offersService.getFuelTypes();
         List<Offer> offers;
 
