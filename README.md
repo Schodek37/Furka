@@ -1,7 +1,4 @@
-# Furka
-Furka cz1, cz2, cz3
-
-Projekt szkolny
+# Projekt uczelniany
 ---------------
 
 Aplikacja webowa z ogłoszeniami sprzedaży samochodów - Spring i JPA
